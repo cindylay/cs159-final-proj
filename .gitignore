@@ -4,6 +4,9 @@ models/
 # Ignore the google-research/bert repository
 bert/
 
+# Ignore the .ipynb_checkpoints
+.ipynb_checkpoints/
+
 .idea/
 .vscode/
 node_modules/
