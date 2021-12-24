@@ -7,6 +7,9 @@ bert/
 # Ignore the .ipynb_checkpoints
 .ipynb_checkpoints/
 
+# Ignore the display-data.ipynb file
+Experiments/display-data.ipynb
+
 .idea/
 .vscode/
 node_modules/
