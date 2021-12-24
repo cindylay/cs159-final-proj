@@ -1,2 +1,7 @@
-# cs159-final-proj
-NLP Final Project
+# Stack Overflow Question Quality Classification Using Deep Learning Techniques
+## Abstract
+Community Question Answering (CQA) forums like Stack Overflow play an important role to support developers of all experience levels. Thus, it is essential to establish an automatic quality control metric to filter high-quality questions better than current manual moderation methods.  
+In this paper, we apply different natural language processing and deep learning techniques to classify high-quality questions based on linguistic features and assigned tags. Using random forests, we evaluate question features most influential to the quality of the posts. In accordance with our findings, we conclude that an approach that combines deep learning and natural language processing methods serves as an accurate solution to the automated quality classification problem for Stack Overflow. We found that bi-directional LSTM and CNN had higher accuracies than BERT although BERT had higher precision and recall. Furthermore, we found that when evaluating the dataset using sentiment analysis, Neural Network Classifcation had an accuracy of about 46\% while our Random Forest Classifier had an accuracy of about 51\% and found tags to be the most influential feature to predicting post quality.
+
+## Research Paper URL:
+The research paper is included within this GitHub Repository as "Stack Overflow Question Quality Classification". Click [here](https://)
