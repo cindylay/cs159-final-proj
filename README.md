@@ -44,4 +44,4 @@ Using our pre-processed dataset, we first convert the dataframe to a numpy float
 For any deep learning model, achieving a 'good fit' on the model is crucial. To evaluate the performances of each of the models, we will be using three statistical metrics: accuracy, precision, and recall. In our dataset, given that each quality label is of equal importance, we believe classification accuracy is the most effective. Other statistical measures we are considering are precision and recall as precision allows us to identify a measure of result relevancy, while recall allows us to measure the number of truly relevant results that the model returns.
 
 ## Results/ Discussions / Conclusion
-Please reference the research paper[research paper](https://github.com/cindylay/cs159-final-proj/blob/main/Stack%20Overflow%20Question%20Quality%20Classification.pdf) 
+Please reference the [research paper](https://github.com/cindylay/cs159-final-proj/blob/main/Stack%20Overflow%20Question%20Quality%20Classification.pdf) 
