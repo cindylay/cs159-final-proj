@@ -22,7 +22,6 @@ The research paper is included within this GitHub Repository titled: *Stack Over
 ├── .gitignore 
 ├── README.md
 └── Stack Overflow Question Quality Classification.pdf <- The research paper
-Model / CNN Classification Model
 ```
 ## Methods
 To best determine question quality we decided on two different methods. Our first approach was text classification using Bi-directional Encoder Representation from Transformers (BERT), as well as Bi-directional Long-Short Term Memory (BLSTM) and Convolutional Neural Networks (CNN). Our second method incorporates sentiment analysis on text attributes of the data to transform the data into numerical categories such that neural net classification and Random forest classification can be applied. Furthermore, through the second approach, Random Forests will be used to generate a ranking for dataset attributes based on their feature importance. Comparing these two approaches, we investigate which most effectively classifies high-quality stack overflow questions.
